@@ -1,0 +1,28 @@
+{
+    "name": "zarulizham/onewaysms",
+    "description": "OneWaySMS package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhamad Zarul Izham Zubir",
+            "email": "zarul.izham@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "OneWaySMS\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "OneWaySMS\\SmsServiceProvider"
+            ]
+        }
+    }
+}

@@ -1,0 +1,204 @@
+table.dataTable.dtr-inline.collapsed > tbody > tr > td.child,
+table.dataTable.dtr-inline.collapsed > tbody > tr > th.child,
+table.dataTable.dtr-inline.collapsed > tbody > tr > td.dataTables_empty {
+    cursor: default !important;
+}
+table.dataTable.dtr-inline.collapsed > tbody > tr > td.child:before,
+table.dataTable.dtr-inline.collapsed > tbody > tr > th.child:before,
+table.dataTable.dtr-inline.collapsed > tbody > tr > td.dataTables_empty:before {
+    display: none !important;
+}
+table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child,
+table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child {
+    position: relative !important;
+    padding-left: 30px !important;
+    cursor: pointer !important;
+}
+table.dataTable.dtr-inline.collapsed
+    > tbody
+    > tr[role="row"]
+    > td:first-child:before,
+table.dataTable.dtr-inline.collapsed
+    > tbody
+    > tr[role="row"]
+    > th:first-child:before {
+    top: 4px !important;
+    left: 4px !important;
+    height: 18px !important;
+    width: 18px !important;
+    display: block !important;
+    position: absolute !important;
+    color: #444 !important;
+    border: 2px solid white !important;
+    border-radius: 2px !important;
+    box-shadow: none !important;
+    box-sizing: content-box !important;
+    text-align: center !important;
+    text-indent: 0 !important;
+    line-height: 20px !important;
+    content: "\f107" !important;
+    font-family: "FontAwesome" !important;
+    font-size: 12px !important;
+    background-color: #31b131 !important;
+    background-color: #f4f4f4 !important;
+    border: 1px solid #ddd !important;
+}
+table.dataTable.dtr-inline.collapsed
+    > tbody
+    > tr.parent
+    > td:first-child:before,
+table.dataTable.dtr-inline.collapsed
+    > tbody
+    > tr.parent
+    > th:first-child:before {
+    content: "\f106" !important;
+    font-family: "FontAwesome" !important;
+    font-size: 12px !important;
+    line-height: 18px !important;
+    background-color: #f4f4f4 !important;
+}
+table.dataTable.dtr-inline.collapsed.compact > tbody > tr > td:first-child,
+table.dataTable.dtr-inline.collapsed.compact > tbody > tr > th:first-child {
+    padding-left: 27px !important;
+}
+table.dataTable.dtr-inline.collapsed.compact
+    > tbody
+    > tr
+    > td:first-child:before,
+table.dataTable.dtr-inline.collapsed.compact
+    > tbody
+    > tr
+    > th:first-child:before {
+    top: 5px !important;
+    left: 4px !important;
+    height: 14px !important;
+    width: 14px !important;
+    border-radius: 14px !important;
+    line-height: 14px !important;
+    text-indent: 3px !important;
+}
+table.dataTable.dtr-column > tbody > tr > td.control,
+table.dataTable.dtr-column > tbody > tr > th.control {
+    position: relative !important;
+    cursor: pointer !important;
+}
+table.dataTable.dtr-column > tbody > tr > td.control:before,
+table.dataTable.dtr-column > tbody > tr > th.control:before {
+    top: 50% !important;
+    left: 50% !important;
+    height: 16px !important;
+    width: 16px !important;
+    margin-top: -10px !important;
+    margin-left: -10px !important;
+    display: block !important;
+    position: absolute !important;
+    color: white !important;
+    border: 2px solid white !important;
+    border-radius: 14px !important;
+    box-shadow: 0 0 3px #444 !important;
+    box-sizing: content-box !important;
+    text-align: center !important;
+    text-indent: 0 !important;
+    line-height: 14px !important;
+    content: "\f107" !important;
+    font-family: "FontAwesome" !important;
+    font-size: 12px !important;
+    background-color: #31b131 !important;
+}
+table.dataTable.dtr-column > tbody > tr.parent td.control:before,
+table.dataTable.dtr-column > tbody > tr.parent th.control:before {
+    content: "\f106" !important;
+    font-family: "FontAwesome" !important;
+    font-size: 12px !important;
+
+    background-color: #d33333 !important;
+}
+table.dataTable > tbody > tr.child {
+    padding: 0.5em 1em !important;
+}
+table.dataTable > tbody > tr.child:hover {
+    background: transparent !important;
+}
+table.dataTable > tbody > tr.child ul.dtr-details {
+    display: inline-block !important;
+    list-style-type: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    padding-left: 25px !important;
+}
+table.dataTable > tbody > tr.child ul.dtr-details > li {
+    border-bottom: 1px solid #efefef !important;
+    padding: 0.5em 0 !important;
+}
+table.dataTable > tbody > tr.child ul.dtr-details > li:first-child {
+    padding-top: 0 !important;
+}
+table.dataTable > tbody > tr.child ul.dtr-details > li:last-child {
+    border-bottom: none !important;
+}
+table.dataTable > tbody > tr.child span.dtr-title {
+    display: inline-block !important;
+    min-width: 75px !important;
+    font-weight: bold !important;
+}
+div.dtr-modal {
+    position: fixed !important;
+    box-sizing: border-box !important;
+    top: 0 !important;
+    left: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+    z-index: 100 !important;
+    padding: 10em 1em !important;
+}
+div.dtr-modal div.dtr-modal-display {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    width: 50% !important;
+    height: 50% !important;
+    overflow: auto !important;
+    margin: auto !important;
+    z-index: 102 !important;
+    overflow: auto !important;
+    background-color: #f5f5f7 !important;
+    border: 1px solid black !important;
+    border-radius: 0.5em !important;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6) !important;
+}
+div.dtr-modal div.dtr-modal-content {
+    position: relative !important;
+    padding: 1em !important;
+}
+div.dtr-modal div.dtr-modal-close {
+    position: absolute !important;
+    top: 6px !important;
+    right: 6px !important;
+    width: 22px !important;
+    height: 22px !important;
+    border: 1px solid #eaeaea !important;
+    background-color: #f9f9f9 !important;
+    text-align: center !important;
+    border-radius: 3px !important;
+    cursor: pointer !important;
+    z-index: 12 !important;
+}
+div.dtr-modal div.dtr-modal-close:hover {
+    background-color: #eaeaea !important;
+}
+div.dtr-modal div.dtr-modal-background {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    z-index: 101 !important;
+    background: rgba(0, 0, 0, 0.6) !important;
+}
+@media screen and (max-width: 767px) {
+    div.dtr-modal div.dtr-modal-display {
+        width: 95% !important;
+    }
+}

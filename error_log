@@ -1,0 +1,2 @@
+[17-Jan-2023 21:36:29 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.2.34. in /home/braifqep/lfk.braincavesoft.xyz/vendor/composer/platform_check.php on line 24
+[18-Jan-2023 01:55:12 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.2.34. in /home/braifqep/lfk.braincavesoft.xyz/vendor/composer/platform_check.php on line 24

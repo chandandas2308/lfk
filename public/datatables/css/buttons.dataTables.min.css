@@ -1,0 +1,278 @@
+@keyframes dtb-spinner {
+    100% {
+        transform: rotate(360deg) !important;
+    }
+}
+@-o-keyframes dtb-spinner {
+    100% {
+        -o-transform: rotate(360deg) !important;
+        transform: rotate(360deg) !important;
+    }
+}
+@-ms-keyframes dtb-spinner {
+    100% {
+        -ms-transform: rotate(360deg) !important;
+        transform: rotate(360deg) !important;
+    }
+}
+@-webkit-keyframes dtb-spinner {
+    100% {
+        -webkit-transform: rotate(360deg) !important;
+        transform: rotate(360deg) !important;
+    }
+}
+@-moz-keyframes dtb-spinner {
+    100% {
+        -moz-transform: rotate(360deg) !important;
+        transform: rotate(360deg) !important;
+    }
+}
+div.dt-button-info {
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    width: 400px !important;
+    margin-top: -100px !important;
+    margin-left: -200px !important;
+    background-color: white !important;
+    border: 2px solid #111 !important;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3) !important;
+    border-radius: 3px !important;
+    text-align: center !important;
+    z-index: 21 !important;
+}
+div.dt-button-info h2 {
+    padding: 0.5em !important;
+    margin: 0 !important;
+    font-weight: normal !important;
+    border-bottom: 1px solid #ddd !important;
+    background-color: #f3f3f3 !important;
+}
+div.dt-button-info > div {
+    padding: 1em !important;
+}
+button.dt-button,
+div.dt-button,
+a.dt-button {
+    position: relative !important; /* float: none !important; */
+    display: inline-block !important;
+    box-sizing: border-box !important; /* margin-right:0.333em !important; */
+    padding: 2px 6.2px !important; /* border: 1px solid #ddd !important; */
+    border-radius: 0px !important;
+    cursor: pointer !important;
+    font-size: 14px !important;
+    color: #444 !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    background-color: #fff !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+    text-decoration: none !important;
+    outline: none !important;
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-bottom: 1px solid #ddd !important;
+}
+button.dt-button.disabled,
+div.dt-button.disabled,
+a.dt-button.disabled {
+    color: #999 !important;
+    border: 1px solid #d0d0d0 !important;
+    cursor: default !important;
+    background-color: #f9f9f9 !important;
+}
+button.dt-button:active:not(.disabled),
+button.dt-button.active:not(.disabled),
+div.dt-button:active:not(.disabled),
+div.dt-button.active:not(.disabled),
+a.dt-button:active:not(.disabled),
+a.dt-button.active:not(.disabled) {
+    background-color: #e2e2e2 !important;
+}
+button.dt-button:active:not(.disabled):hover:not(.disabled),
+button.dt-button.active:not(.disabled):hover:not(.disabled),
+div.dt-button:active:not(.disabled):hover:not(.disabled),
+div.dt-button.active:not(.disabled):hover:not(.disabled),
+a.dt-button:active:not(.disabled):hover:not(.disabled),
+a.dt-button.active:not(.disabled):hover:not(.disabled) {
+    box-shadow: none !important;
+    background-color: #868585 !important;
+}
+button.dt-button:hover,
+div.dt-button:hover,
+a.dt-button:hover {
+    text-decoration: none !important;
+}
+button.dt-button:hover:not(.disabled),
+div.dt-button:hover:not(.disabled),
+a.dt-button:hover:not(.disabled) {
+    background-color: #e7e7e7 !important;
+}
+button.dt-button:focus:not(.disabled),
+div.dt-button:focus:not(.disabled),
+a.dt-button:focus:not(.disabled) {
+    /* border:1px solid #426c9e !important; */ /* text-shadow:0 1px 0 #c4def1 !important; */
+    outline: none !important; /* background-color:#79ace9 !important; */ /* background-image:-webkit-linear-gradient(top, #bddef4 0%, #79ace9 100%) !important; */ /*background-image:-moz-linear-gradient(top, #bddef4 0%, #79ace9 100%) !important;background-image:-ms-linear-gradient(top, #bddef4 0%, #79ace9 100%) !important;background-image:-o-linear-gradient(top, #bddef4 0%, #79ace9 100%) !important; background-image:linear-gradient(to bottom, #bddef4 0%, #79ace9 100%) !important; filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#bddef4', EndColorStr='#79ace9') !important;*/
+}
+.dt-button embed {
+    outline: none !important;
+}
+div.dt-buttons {
+    position: relative !important;
+    float: right !important;
+}
+div.dt-buttons.buttons-right {
+    float: right !important;
+}
+div.dt-button-collection {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 160px !important; /* text-align: left !important; */
+    margin-top: 2px !important;
+    padding: 4px 0px 4px 1px !important;
+    border: 1px solid #eee !important; /* border:1px solid rgba(0,0,0,0.4) !important; */
+    background-color: white !important;
+    overflow: hidden !important;
+    z-index: 2002 !important;
+    border-radius: 4px !important;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.24) !important;
+    z-index: 2002 !important; /* -webkit-column-gap:8px !important; */
+    -moz-column-gap: 8px !important;
+    -ms-column-gap: 8px !important;
+    -o-column-gap: 8px !important; /* column-gap:8px !important; */
+}
+div.dt-button-collection button.dt-button,
+div.dt-button-collection div.dt-button,
+div.dt-button-collection a.dt-button {
+    position: relative !important;
+    text-align: left !important;
+    left: 0 !important;
+    right: 0 !important;
+    display: block !important;
+    float: none !important;
+    margin-bottom: 0px !important;
+    border: 0 !important;
+    margin-right: 0 !important;
+    padding: 3px 20px !important;
+}
+div.dt-button-collection button.dt-button:active:not(.disabled),
+div.dt-button-collection button.dt-button.active:not(.disabled),
+div.dt-button-collection div.dt-button:active:not(.disabled),
+div.dt-button-collection div.dt-button.active:not(.disabled),
+div.dt-button-collection a.dt-button:active:not(.disabled),
+div.dt-button-collection a.dt-button.active:not(.disabled) {
+    background-color: #868585 !important;
+    box-shadow: none !important;
+    border: 0 !important;
+    padding: 3px 20px !important;
+    font-size: 14px !important;
+    text-align: left !important;
+    border-radius: 0 !important;
+    color: #fff !important;
+}
+div.dt-button-collection.fixed {
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    margin-left: -75px !important;
+    border-radius: 0 !important;
+}
+div.dt-button-collection.fixed.two-column {
+    margin-left: -150px !important;
+}
+div.dt-button-collection.fixed.three-column {
+    margin-left: -225px !important;
+}
+div.dt-button-collection.fixed.four-column {
+    margin-left: -300px !important;
+}
+div.dt-button-collection > * {
+    -webkit-column-break-inside: avoid !important;
+    break-inside: avoid !important;
+}
+div.dt-button-collection.two-column {
+    width: 300px !important;
+    padding-bottom: 1px !important;
+    -webkit-column-count: 2 !important;
+    -moz-column-count: 2 !important;
+    -ms-column-count: 2 !important;
+    -o-column-count: 2 !important;
+    column-count: 2 !important;
+}
+div.dt-button-collection.three-column {
+    width: 450px !important;
+    padding-bottom: 1px !important;
+    -webkit-column-count: 3 !important;
+    -moz-column-count: 3 !important;
+    -ms-column-count: 3 !important;
+    -o-column-count: 3 !important;
+    column-count: 3 !important;
+}
+div.dt-button-collection.four-column {
+    width: 600px !important;
+    padding-bottom: 1px !important;
+    -webkit-column-count: 4 !important;
+    -moz-column-count: 4 !important;
+    -ms-column-count: 4 !important;
+    -o-column-count: 4 !important;
+    column-count: 4 !important;
+}
+div.dt-button-background {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: transparent !important;
+    z-index: 2001 !important;
+}
+@media screen and (max-width: 640px) {
+    div.dt-buttons {
+        float: none !important;
+        text-align: center !important;
+    }
+}
+button.dt-button.processing,
+div.dt-button.processing,
+a.dt-button.processing {
+    color: rgba(0, 0, 0, 0.2) !important;
+}
+button.dt-button.processing:after,
+div.dt-button.processing:after,
+a.dt-button.processing:after {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    width: 16px !important;
+    height: 16px !important;
+    margin: -8px 0 0 -8px !important;
+    box-sizing: border-box !important;
+    display: block !important;
+    content: " " !important;
+    border: 2px solid #282828 !important;
+    border-radius: 50% !important;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+    animation: dtb-spinner 1500ms infinite linear !important;
+    -o-animation: dtb-spinner 1500ms infinite linear !important;
+    -ms-animation: dtb-spinner 1500ms infinite linear !important;
+    -webkit-animation: dtb-spinner 1500ms infinite linear !important;
+    -moz-animation: dtb-spinner 1500ms infinite linear !important;
+}
+
+.dataTables_filter input {
+    height: 26px !important;
+    border-radius: 0px !important;
+    font-weight: normal !important;
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-bottom: 1px solid #ddd !important;
+    outline: none !important;
+    padding: 0px 0px !important;
+    font-size: 10pt !important;
+}
